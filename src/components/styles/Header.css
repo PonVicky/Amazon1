@@ -1,0 +1,169 @@
+.headerContainer {
+  padding: 10px 8px;
+  background-color: #131921;
+  height: 65px;
+  height: 45px;
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  color: #fff;
+  gap: 5px;
+}
+
+.deliveryBox:hover,
+.amazonlogo:hover,
+.helloTextBox:hover,
+.returnTextBox:hover,
+.cart:hover,
+.flags:hover {
+  border-color: #fff;
+  cursor: pointer;
+}
+
+.amazonlogo {
+  border: 2px solid transparent;
+  width: 7%;
+  padding: 13px 2px;
+}
+
+.deliveryBox {
+  color: #e3e6e6;
+  border: 2px solid transparent;
+  padding: 14px 5px;
+  box-sizing: border-box;
+  font-size: 13px;
+  width: 13%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 3px;
+  line-height: 1.1;
+}
+
+.deliveryBox b {
+  font-size: 14px;
+}
+
+.locationLogo {
+  width: auto;
+  height: auto;
+  max-height: 20px;
+  filter: brightness(0) invert(1);
+}
+
+/* Search Bar */
+.searchBar {
+  display: flex;
+}
+.allButton {
+  color: #666666;
+  font-size: 12px;
+  width: 50px;
+  padding: 12px 6px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  outline: none;
+  border: none;
+  border-right: 2px solid #e3e6e6;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.dropDown {
+  font-size: 8px;
+}
+
+.textbox {
+  width: 640px;
+  border: none;
+  outline: none;
+  padding: 0px 5px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.searchButton {
+  border: none;
+  outline: none;
+  padding: 8px 12px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: #febd69;
+}
+
+.searchButton ion-icon {
+  font-size: 22px;
+  font-weight: bolder;
+}
+
+.flags {
+  border: 2px solid transparent;
+  color: #e3e6e6;
+  display: flex;
+  gap: 3px;
+  align-items: center;
+  margin-left: 18px;
+
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+
+.text1 {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+/* TextBoxes */
+
+.helloTextBox {
+  border: 2px solid transparent;
+  margin-left: 18px;
+  width: 8%;
+  line-height: 1.1;
+
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+
+.helloText1 {
+  font-size: 13px;
+}
+
+.helloText2 {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.returnTextBox {
+  border: 2px solid transparent;
+  width: 5%;
+  margin-left: 18px;
+  line-height: 1.1;
+
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+
+.cart {
+  border: 2px solid transparent;
+  width: 6%;
+  display: flex;
+  margin-left: 12px;
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.cartLogo {
+  width: auto;
+  height: auto;
+  max-height: 40px;
+}
+
+.cartText {
+  align-self: flex-end;
+  font-weight: bold;
+}

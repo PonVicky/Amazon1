@@ -1,0 +1,26 @@
+.contentContainer {
+  width: 340px;
+  height: 370px;
+  background-color: white;
+  padding: 20px;
+  padding-right: 0;
+}
+
+.gridContainer {
+  width: 90%;
+  min-height: 300px;
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  column-gap: 10px;
+  row-gap: 20px;
+}
+
+.additionalText {
+  color: #5184b5;
+}
+
+.contentHeading {
+  line-height: 1;
+}

@@ -1,0 +1,14 @@
+.textText {
+  color: #fff;
+  margin: 12px 4px;
+  font-size: 14px;
+  font-weight: 600;
+  margin-right: 20px;
+  border: 2px solid transparent;
+  padding: 10px 0;
+}
+
+.textText:hover {
+  cursor: pointer;
+  border-color: #fff;
+}

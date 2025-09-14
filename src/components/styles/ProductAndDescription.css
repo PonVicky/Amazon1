@@ -1,0 +1,13 @@
+.productAndDescriptionContainer {
+  width: 100%;
+  height: auto;
+}
+
+.productImage {
+  width: 100%;
+  height: auto;
+}
+
+.imageDescription {
+  font-size: 14px;
+}

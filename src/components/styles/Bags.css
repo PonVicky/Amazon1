@@ -1,0 +1,43 @@
+.wholeContainer {
+  width: 96.4%;
+  margin-top: 215px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bagContainer {
+  /* width: 100%; */
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.bagHeadingFlex {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.bagHeadingFlex p {
+  font-size: 14px;
+  color: #5184b5;
+}
+
+.flexContainer {
+  display: flex;
+  overflow: auto; /*Note this*/
+  gap: 20px;
+}
+
+.flexContainer Img {
+  flex: 1;
+  max-width: 200px;
+  height: auto;
+  object-fit: contain; /*Note this*/
+}
+.gearContainer {
+  margin-top: 30px;
+  background-color: #fff;
+  padding: 20px;
+}
