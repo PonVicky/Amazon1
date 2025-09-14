@@ -161,7 +161,6 @@ function ImageSlider() {
     },
   ];
 
-  const content7 = {};
   return (
     <div className="imagesliderContainer">
       <img alt="nothing" className="images" src={images[index]} />
